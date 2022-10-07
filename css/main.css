@@ -1,0 +1,171 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+}
+
+
+.menu-principal {
+    width: 100%;
+    background-color: black;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+.logo {
+    padding: 0 0 10px 80px;
+    width: 15%;
+    float: left;
+}
+
+.logo img {
+    max-width: 88px;
+    width: auto;
+    padding: 15px 0 0 0;
+    margin-left: 20px;
+}
+.servicos ul li {
+    display: inline-block;
+    font-size: 21px;
+    padding: 28px 10px 15px 10px;
+    float: right;
+    margin-right: 30px;
+    height: 30px;
+}
+
+.servicos ul li :hover {
+    border-bottom: 2px solid white;
+}
+.servicos {
+    width: 65%;
+    float: right;
+    margin-right: 80px;
+}
+
+.servicos ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slider-principal img {
+    max-width: 100%;
+    width: auto;
+}
+
+.slider-principal {
+    max-width: 100%;
+    /*padding-left: 100px;
+    padding-right: 100px; */
+    width: auto;
+    background-color: black;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 33px;
+    height: 42px;
+    position: absolute;
+    z-index: 9;
+    top: 40%;
+    left: 28px;
+    background-color: transparent;
+    background-image: url(../img/seta-esquerda.png);
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 33px;
+    height: 42px;
+    position: absolute;
+    z-index: 9;
+    top: 40%;
+    right: 28px;
+    background-color: transparent;
+    background-image: url(../img/seta-direita.png);
+}
+
+
+/*ul.slick-dots li button {
+    font-size: 0;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+ul.slick-dots {
+    display: inline-block;
+    width: 100%;
+    margin-left: 46.7%;
+    padding: 0;
+}
+
+ul.slick-dots li {
+    width: 30px;
+    display: inline-block;
+} 
+
+ul li.slick-active  {
+    background-color: white;
+    font-size: 0;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+    position:absolute;
+    z-index: 9;
+    top: 85%;
+} */
+
+.slick-dots li button {
+    font-size: 0;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    cursor: pointer; 
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    left: 46.5%;
+    top: 95% ;
+    padding-left: 0;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+li.slick-active button {
+    background-color: white;
+}
+
+.content img {
+    background-color: black;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+.content {
+    height: auto;
+    width: 1900px;
+}
