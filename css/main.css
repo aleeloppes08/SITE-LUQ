@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: 100%;
-    margin:0 auto;
+    margin:0 auto; 
 }
 
 
@@ -20,7 +20,7 @@ main {
 }
 
 .logo {
-    padding: 0 0 10px 80px;
+    padding: 0 0 9px 80px;
     width: 15%;
     float: left;
 }
@@ -57,15 +57,20 @@ main {
 }
 .slider-principal img {
     max-width: 100%;
-    width: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 4%
+    ;
 }
 
 .slider-principal {
     max-width: 100%;
-    /*padding-left: 100px;
-    padding-right: 100px; */
-    width: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 2%;
+    width: 100%;
     background-color: black;
+    margin: 0 auto;
 }
 
 button.slick-prev {
@@ -94,42 +99,6 @@ button.slick-next {
     background-image: url(../img/seta-direita.png);
 }
 
-
-/*ul.slick-dots li button {
-    font-size: 0;
-    border: 2px solid white;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background-color: transparent;
-    cursor: pointer;
-
-}
-ul.slick-dots {
-    display: inline-block;
-    width: 100%;
-    margin-left: 46.7%;
-    padding: 0;
-}
-
-ul.slick-dots li {
-    width: 30px;
-    display: inline-block;
-} 
-
-ul li.slick-active  {
-    background-color: white;
-    font-size: 0;
-    border: 2px solid white;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    margin-right: 7px;
-    position:absolute;
-    z-index: 9;
-    top: 85%;
-} */
-
 .slick-dots li button {
     font-size: 0;
     border: 2px solid white;
@@ -142,10 +111,10 @@ ul li.slick-active  {
 
 .slick-dots {
     margin: 0 auto;
-    width: 100%;
+    width: 50%;
     position: absolute;
     left: 46.5%;
-    top: 95% ;
+    top: 85% ;
     padding-left: 0;
 }
 
@@ -158,14 +127,99 @@ li.slick-active button {
     background-color: white;
 }
 
-.content img {
-    background-color: black;
+.content {
+    height: 650px;
+    width: auto;
+    background-color: white;
+} 
+ .content h1 {
+    color: black;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    font-size: 50px;
+ }
+
+ .content p {
+    color: black;
+    padding: 0 2% 10% 2%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+ }
+
+ .content-2 img {
     height: auto;
     max-width: 100%;
-    width: 100%;
+    width: 55%;
+    padding: 4% 10% 2% 23%;
 }
 
-.content {
-    height: auto;
-    width: 1900px;
+.content-2 {
+background-color: black;
 }
+
+.content-2 p {
+    color: white;
+    padding: 0 2% 5% 4%;
+    margin: 0;
+    text-align: left;
+    font-size: 25px;
+    width: 30%;
+ }
+
+ .logo-parc img {
+    width: 15%;
+   float: left;
+   position: relative;
+   padding-left: 12%;
+   padding-bottom: 15%;
+ }
+
+ .logo-kemel img {
+    width: 25%;
+   float: left;
+   position: relative;
+   padding-left: 12%;
+   padding-bottom: 5%;
+   padding-top: 10%;
+ }
+ .content-3 p {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 3%;
+ }
+
+ .content-3 {
+     height: 650px;
+    width: auto;
+ }
+
+
+ .content-4 h2 {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    padding-top: 2%;
+
+ }
+
+ .content-4 {
+    background-color: black;
+ }
+
+ .content-4 img {
+    height: auto;
+    max-width: 100%;
+    width: 55%;
+    padding: 1% 10% 3% 23%;
+ }
+
+ .final {
+    text-align: center;
+    background-color: white;
+    height: 650px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 25px;
+ }
